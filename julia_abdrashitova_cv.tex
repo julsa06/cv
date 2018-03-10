@@ -1,0 +1,160 @@
+\documentclass{cv}
+
+\usepackage{datetime}
+\newdateformat{monthyear}{\monthname[\THEMONTH], \THEYEAR}
+
+\usepackage{fontawesome}
+\usepackage{fontspec}
+\usepackage[russian,english]{babel}
+\setmainfont[Ligatures=TeX]{Linux Libertine O}
+\setmonofont[Ligatures=TeX]{Linux Libertine Mono O}
+\setsansfont[Ligatures=TeX]{Liberation Sans}
+
+\begin{document}
+
+\cvheading{Юлия Абдрашитова}
+
+\section{Контактная информация}
+
+\entry{\faEnvelope}{\href{mailto:julsa06@gmail.com}{julsa06@gmail.com}}
+
+\entry{\faPhone}{+7 (999) 535 3557}
+
+\entry{\faMapMarker}{Санкт-Петербург, Россия}
+
+\entry{\faGithubAlt}{\href{https://github.com/julsa06}{github.com/julsa06}}
+
+\section{Опыт}
+
+\begin{cvblock}{%
+  \blocktitle{T-Systems RUS}%
+             {г. Санкт-Петербург}%
+             {Младший инженер-программист}%
+             {Февраль--Май 2016}}
+  Система для подачи и управления заявками на обучение для сотрудников 
+  компании в рамках университетской практики.
+  \begin{itemize}
+      \item Проектная деятельность: Участие в проектировании системы.
+            Разработка системы;
+      \item Используемые технологии: Java, Hibernate, Spring, Thymeleaf, MySQL,
+            JavaScript.
+  \end{itemize}
+\end{cvblock}
+
+\vspace{2em}
+
+\begin{cvblock}{%
+  \blocktitle{Университет ИТМО}%
+             {г. Санкт-Петербург}%
+             {Ассистент}%
+             {с 2017}}
+  Курс по базовым алгоритмам и структурам данных на кафедре высшей математики.
+  \begin{itemize}
+      \item Составление программы курса;
+      \item проведение лекций и практики по курсу.
+  \end{itemize}
+\end{cvblock}
+
+\vspace{2em}
+
+\begin{cvblock}{%
+  \blocktitle{Университет Иннополис}%
+             {г. Иннополис}%
+             {Преподаватель}%
+             {с 2016}}
+  \begin{itemize}
+    \item Преподаватель школы олимпиадной подготовки по информатике:
+          \begin{itemize}
+              \item подготовка и разработка учебных материалов (учебный план,
+                    контесты),
+              \item проведение лекций и практических занятий,
+              \item составление и проверка вступительной работы;
+         \end{itemize}
+    \item Член жюри открытой олимпиады университета Иннополис по информатике:
+          \begin{itemize}
+              \item составление задач,
+              \item помощь в организации и проведении.
+         \end{itemize}
+  \end{itemize}
+\end{cvblock}
+
+\vspace{2em}
+
+\begin{cvblock}{%
+  \blocktitle{Физико-Математический лицей \textnumero~366}%
+             {г. Санкт-Петербург}%
+             {Педагог доп. образования}%
+             {с 2011}}
+
+  \begin{itemize}
+    \item Организация и проведение школьных и муниципальных этапов 
+          всероссийской олимпиады школьников по программированию;
+    \item Проведение кружков по олимпиадному программированию. Обучение 
+          школьников основам ЯП (java, pascal) и базовым алгоритмам и
+          структурам данных.
+  \end{itemize}
+\end{cvblock}
+
+\vspace{2em}
+
+\begin{cvblock}{Прочее}
+  \begin{itemize}
+      \item Волонтер на олимпиадах: \begin{itemize}
+          \item ACM ICPC World finals 2013, 
+          \item полуфинал (NEERC) и четвертьфинал ACM ICPC с 2012,
+          \item чемпионаты и кубки СПбГУ по программированию,
+          \item школьные олимпиады: ВКОШП, ИОИП, региональный этап Всеросийской
+                олимпиады по информатике, турнир Архимеда, Матпраздник и др;
+      \end{itemize}
+      \item Преподаватель (введение в олимпиадные программирование на языке
+            python) и вожатый в летней МультиМатической Школе 2016~г.;
+      \item Составление олимпиады по информатике для онлайн-школы Фоксфорд.
+  \end{itemize}
+\end{cvblock}
+
+
+\section{Образование}
+
+\begin{cvblock}{%
+  \blocktitle
+    {Университет ИТМО}
+    {г. Санкт-Петербург}
+    {}
+    {с 2017}}
+  Кафедра высшей математики. Математическое моделирование.
+  \vspace{1em}
+
+  \textit{Магистр прикладной математики и информатики.}
+\end{cvblock}
+
+\begin{cvblock}{%
+  \blocktitle
+    {Европейский университет "Бизнес Треугольник"}
+    {г. Санкт-Петербург}
+    {}
+    {2016--2017}}
+  Педагогическое образование: учитель информатики и ИКТ.
+  \vspace{1em}
+
+  \textit{Учитель информатики и ИКТ.}
+\end{cvblock}
+
+\begin{cvblock}{%
+  \blocktitle
+    {Университет ИТМО}
+    {г. Санкт-Петербург}
+    {}
+    {2012--2016}}
+  Кафедра высшей математики. Математическое моделирование.
+  \vspace{1em}
+
+  \textit{Бакалавр прикладной математики и информатики.}
+\end{cvblock}
+
+
+\vfill
+\begin{center}
+  \monthyear\today
+\end{center}
+
+\end{document}

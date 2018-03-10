@@ -29,7 +29,7 @@
 \newlength{\cvblockmargin}
 \setlength{\cvblockmargin}{4em}
 \newlength{\cvblocktitlewidth}
-\setlength{\cvblocktitlewidth}{0.2\textwidth}
+\setlength{\cvblocktitlewidth}{0.3\textwidth}
 \newlength{\cvblockcontentwidth}
 \setlength{\cvblockcontentwidth}{%
 \textwidth - \cvblocktitlewidth - \cvblockmargin}
@@ -88,14 +88,14 @@
 \hspace{\cvcontentmargin}
 \color{Maroon}
 \Huge
-\so{\MakeUppercase{#1}}
+{\MakeUppercase{#1}}
 \vspace{1em}
 }}
 
 % Entry
 \newcommand{\entry}[2]{%
 \hspace{\cvcontentmargin}
-\begin{minipage}{0.1\textwidth}
+\begin{minipage}{1em}
 #1
 \end{minipage}
 #2
